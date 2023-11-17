@@ -7,10 +7,7 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "apexcharts": "^3.44.0",
-    "sass": "^1.69.5",
-    "vue-apexcharts": "^1.6.2",
-    "vuetify": "^2.7.1"
+    "vue": "^2.7.7"
   },
   "devDependencies": {
     "@vitejs/plugin-legacy": "^2.0.0",

@@ -1,8 +1,14 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.min.css';
 
-import './assets/main.css'
+Vue.use(Vuetify);
+
+const vuetify = new Vuetify();
 
 new Vue({
-  render: (h) => h(App)
-}).$mount('#app')
+  el: '#app',
+  vuetify,
+  render: h => h(App)
+});
